@@ -14,7 +14,7 @@ SO THAT I can organize and plan my business
 - [Usage](#usage)
 - [Questions](#questions)
 - [License](#license)
-- [Walkthrough Video](#walkthrough)
+- [Walkthrough](#walkthrough)
 
 ## Installation
 * In the root directory you want to run "npm i" to install all the required packages.
