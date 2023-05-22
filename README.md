@@ -38,4 +38,4 @@ SO THAT I can organize and plan my business
 https://github.com/hinnenk2/employee-tracker-sql
 
 ## WalkThrough Video
-
+[employee_tracker.webm](https://github.com/hinnenk2/employee-tracker-sql/assets/124109780/f5709644-8433-4e74-ac0b-752b4b38e9a5)
