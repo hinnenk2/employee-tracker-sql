@@ -18,7 +18,7 @@ function askQuestion(toStart) { //Sets up an array of objects for inquirer
     {
       type: 'input',
       name: 'startUp', //name acts as an identifier
-      message: 'Press any key or Enter to continue',
+      message: 'Press Enter to continue',
       when: !toStart,  //message displays when function is not running
     },
     {
@@ -43,7 +43,7 @@ function askQuestion(toStart) { //Sets up an array of objects for inquirer
     .then((data) => { //data is acquired from user's input.
       switch (data.likeToDo) {
         case 'View All Employees':
-          displayAll(`SELECT employee.id, employee.first_name, employee.last_name, role.title AS title, department.name AS department, salary, CONCAT(manager.first_name , " ", manager.last_name) as Manager
+          displayAll(`SELECT employee.id, employee.first_name, employee.last_name, role.title AS title, department.name AS department, salary, CONCAT(manager.first_name , " ", manager.last_name) AS Manager
           FROM employee
           INNER JOIN role ON employee.role_id = role.id
           INNER JOIN department ON role.department_id = department.id
